@@ -3,7 +3,7 @@ import React from 'react'
 const UsAddress = () => {
   return (
     <div className='border p-8 bg-green-100 w-full'>
-      <div className='flex justify-between items-center'>
+      <div className='flex flex-col gap-4 md:flex-row justify-between items-center'>
         <div>
           <h1>Street: 1203 SN Street</h1>
           <h1>City: New York</h1>
